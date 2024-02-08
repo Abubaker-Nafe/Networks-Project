@@ -1,0 +1,15 @@
+Apple MacBook Air (M2):949
+MacBook Pro (14-inch and 16-inch):1999
+14-inch MacBook Pro (2021):2699
+Asus Zenbook Pro Duo 14:2012
+Asus ROG Zephyrus G14:1900
+Asus Chromebook Flip CX5:649
+MacBook Pro 16 (M2 Pro and M2 Max):2299
+MacBook Air 15:1099
+Framework Laptop:849
+Dell XPS 13:999
+Asus Zenbook S 13 OLED:1400
+Microsoft Surface Laptop 5 (13.5-inch):900
+Lenovo 2022 Newest Ideapad 3 Laptop:327
+MSI Thin GF63 15.6" 144Hz Gaming Laptop:989
+MSI Wide GF73 16.5" 288Hz Gaming Laptop:999

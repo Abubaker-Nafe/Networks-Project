@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCS3320-My Tiny Webserver</title>
+    <link rel="stylesheet" href="BetterCSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url(https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1664&q=80);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .blue-box {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .blue-text {
+            color: #00aaff;
+        }
+
+        .group-members {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .student-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .info-box {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            flex: 1;
+            max-width: 300px;
+        }
+
+        .info-box h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .info-box p {
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .red-text {
+            color: #ff5252;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .responsive {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .responsive:hover {
+            transform: scale(1.05);
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .links a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .student-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: rgba(0, 0, 0, 0.7);
+            /* Add background color */
+            padding: 40px 0;
+            /* Adjust padding for spacing */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ENCS3320-My Tiny Webserver</h1>
+    </header>
+    <div class="blue-box">
+        <p>Welcome to our course <span class="blue-text">Computer Networks</span>. This is a tiny webserver.</p>
+    </div>
+    <div class="group-members">
+        <h2>Group Members:</h2>
+        <ul>
+            <li>Nafe Abubaker - #: 1200047</li>
+            <li>Mohammad Abushamma - #: 1200270</li>
+            <li>Mohammad Suliman - #: 1201261</li>
+        </ul>
+    </div>
+    <div class="student-info">
+        <div class="info-box">
+            <h3>Nafé Abubaker</h3>
+            <p>I'm a computer engineer, passionate about networks.
+                <br><span class="red-text">Previous Projects:</span>
+                <br>1. Connect Five game with AI.
+                <br>2. Online Shopping Application with a database.
+                <br>3. Verilog prime numbers and Fibonacci counter.
+                <br><span class="red-text">Hobbies:</span>
+                <br>1. Programming.
+                <br>2. Football.
+            </p>
+        </div>
+        <div class="info-box">
+            <h3>Mohammad Abushamma</h3>
+            <p>I'm a computer engineer who loves soccer.
+                <br><span class="red-text">Previous Projects:</span>
+                <br>1. Tic Tac Toe game.
+                <br>2. Car selling app with a database.
+                <br><span class="red-text">Hobbies:</span>
+                <br>1. Programming.
+                <br>2. Football.
+            </p>
+        </div>
+        <div class="info-box">
+            <h3>Mohammad Suliman</h3>
+            <p>I'm a computer engineer who enjoys soccer.
+                <br><span class="red-text">Previous Projects:</span>
+                <br>1. Snake game.
+                <br>2. Verilog sequence detection.
+                <br><span class="red-text">Hobbies:</span>
+                <br>1. Programming.
+                <br>2. Football.
+            </p>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <div class="image-background">
+            <img src="Nafe1.jpg" class="responsive" alt="Image 1">
+        </div>
+        <div class="image-background">
+            <img src="abushamma.jpg" class="responsive" alt="Image 2">
+        </div>
+    </div>
+
+    <div class="links">
+        <a href="local_file.html">Link to Local HTML File</a>
+        <a href="https://www.w3schools.com/python/python_tuples.asp">Link to w3schools</a>
+    </div>
+</body>
+
+</html>
